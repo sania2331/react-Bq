@@ -110,12 +110,33 @@ code {
   background: var(--code-bg);
 }
 body{
-  background-color: #c084fc;
+  background-color: gray;
 }
 img{
  display: block;
  margin: 0 auto;
 }
 h1{
-  color: chartreuse;
+  color: #08060d;
+}
+p{
+  color: #f4f3ec;
+}
+
+.card{
+  background-color: rgb(100, 32, 32);
+  border: 1px solid black;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.card-container{
+ display: flex;
+ gap: 30px;
+ justify-content: center;
+ flex-wrap: wrap;
+
+  
 }

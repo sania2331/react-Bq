@@ -1,14 +1,19 @@
 import React from 'react'
+import "./index.css"
 import Test from './Practice/Test.jsx'
 
 const App = () => {
   return (
- 
-  <>
- 
+ <>
+ <h1 className='main-heading'>My first React website</h1>
+ <div className='card-container'>
 <Test/>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolores id praesentium reprehenderit cupiditate sed. Molestias itaque perferendis tenetur adipisci dignissimos officiis, perspiciatis exercitationem, vero rem aliquam repudiandae, quia maxime!</p>
+  
 
+<Test/>
+
+<Test/>
+</div>
   </>
 )
  
