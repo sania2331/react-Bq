@@ -7,6 +7,7 @@ function Test() {
 return(
     <>
 <h1>Hello {user}</h1>
+<h2>Card</h2>
 <img src={honda}  width={200}/>
 </>
 )
