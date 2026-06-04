@@ -1,6 +1,7 @@
 import React from 'react'
 import "./index.css"
 import Test from './Practice/Test.jsx'
+import UseEffect from './Practice/UseEffect.jsx'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
 <Test/>
 
 <Test/>
+<UseEffect/>
 </div>
   </>
 )
