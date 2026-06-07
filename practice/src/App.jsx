@@ -1,7 +1,9 @@
 import React from 'react'
 import "./index.css"
-import Test from './Practice/Test.jsx'
+
 import UseEffect from './Practice/UseEffect.jsx'
+import UseRef from './UseRef.jsx'
+
 
 const App = () => {
   return (
@@ -14,7 +16,10 @@ const App = () => {
 <Test/>
 
 <Test/>
+
+<useCallback/>
 <UseEffect/>
+
 </div>
   </>
 )
